@@ -21,6 +21,8 @@ process_extending_files ${APP_DATA}/src/pre-init/ ${CONTAINER_SCRIPTS_PATH}/pre-
 
 pg_ctl -w start -o "-h ''"
 
+
+
 if [ "${NEED_TO_CREATE_USERS:-}" == "yes" ]; then
   create_users
 fi

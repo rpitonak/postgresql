@@ -1,5 +1,0 @@
-[module-postgresql]
-name=Repository for the PostgreSQL module
-baseurl=https://kojipkgs.fedoraproject.org/repos/module-@POSTGRESQL_MODULE_HASH@-build/latest/${basearch}/
-enabled=1
-gpgcheck=0
